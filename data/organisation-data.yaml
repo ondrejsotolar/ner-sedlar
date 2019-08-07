@@ -1,0 +1,6 @@
+prepositions: ['na', 'u', 'pro', 'v', 'za', 'při', 'proti']
+names: ['společnost', 'družstvo', 'instituce', 'institut', 'korporace',
+        'firma', 'organizace', 'nadace', 'bratrstvo', 'uskupení', 'svaz',
+        'spolek', 'sdružení', 'podnik', 'hnutí', 'společenství',
+        'společenstvo', 'asociace']
+types: ['s.r.o.', 's.r.o.', 'a.s.', 'llc']

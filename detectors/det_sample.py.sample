@@ -1,0 +1,35 @@
+#! /usr/bin/env python
+# vim: set encoding=utf-8
+
+"""
+Description of this detector.
+"""
+
+import detectors.base as ner
+from utils import run_helper
+
+LIMIT_FWD = 1
+LIMIT_BACK = 1
+
+class SampleEntity(ner.NamedEntity):
+    """Sample entity."""
+    pass
+
+class SampleDetector(ner.Detector):
+    """Sample detector."""
+
+    def try_extract(self, history, future):
+        """Try to detect an entity in `future`. If found, pop the tokens from
+        from the queue and return SampleEntity. Otherwise do not change the
+        queue and return None.
+
+        This method will be executed with future starting on every token in
+        input stream. Do not modify `history`, it is automatically provided.
+        Pop from `future` only if entity was detected.
+        """
+        return None
+
+    def run(self, inp):
+        """Runner for this detector."""
+        for t in run_helper(inp, LIMIT_FWD, LIMIT_BACK, self.try_extract):
+            yield t

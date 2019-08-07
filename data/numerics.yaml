@@ -1,0 +1,58 @@
+- 
+  class: 'Aevent Bduration'
+  short: [min, hod, s, sec, vt]
+  long: [týden, týdny, týdnů, den, dny, dnů, dní, hodina, hodiny, hodin,
+         minuta, minuty, minut, rok, roky, roků, let, sekunda, sekundy, sekund,
+         vteřina, vteřiny, vteřin, století, tisíciletí]
+-
+  class: 'Anumber Bdistance'
+  short: [m]
+  long: [metr, metru, metry, metrů]
+-
+  class: 'Anumber Bweight'
+  short: [g]
+  long: [gram, gramu, gramy, gramů]
+-
+  class: 'Anumber Bvolume'
+  short: [l]
+  long: [litr, litru, litry, litrů]
+-
+  class: 'Anumber Bpower'
+  short: [W]
+  long: [watt, wattu, watty, wattů]
+-
+  class: 'Anumber Bfrequency'
+  short: [Hz]
+  long: [hertz, hertzů, hertzy, hertze, hertzů]
+-
+  class: 'Anumber Blumintensity'
+  short: [cd]
+  long: [kandel, kandely, kandelů, kandelu, candel]
+-
+  class: 'Anumber Belcurrent'
+  short: [A]
+  long: [ampér, ampéru, ampéry, ampéra, amper, amperu, ampery, ampera]
+-
+  class: 'Anumber Belcharge'
+  short: [C]
+  long: [coulomb, coulombů, coulomby, coulombu]
+-
+  class: 'Anumber Belvoltage'
+  short: [V]
+  long: [volt, volty, voltů, voltu]
+-
+  class: 'Anumber Benergy'
+  short: [J, cal, eV, Wh]
+  long: [joul, joulů, jouly, joulu, kalorie, kalorií,
+         elektronvoltů, elektronvolty, elektronvoltu,
+         watthodina, watthodiny, watthodiny, watthodinu]
+-
+  class: 'Anumber Bmemory'
+  short: [b, B, bit]
+  long: [bit, bitů, bitu, bity, bajt, bajtů, bajtu, bajty, byte]
+  binary: true
+
+-
+  class: 'Anumber Bacidity'
+  short: [pH]
+  long: []

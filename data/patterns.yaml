@@ -1,0 +1,21 @@
+num_prefixes: [tis, tisíc, tisíce, tisíci, mil, milion, miliony, milionů,
+               mld, miliard, miliardy, bil, bilion, biliony, bilionů]
+len_prefixes: [kilo, mili, centi, deci, hekto, nano, mega, giga, peta, tera]
+len_prefixes_short: [k, K, m, c, d, h, n, M, G, P, T]
+bin_prefixes: [kilo, mega, giga, tera, peta, kibi, mibi, gibi, tebi, pebi]
+bin_prefixes_short: [k, K, M, G, T, P, Ki, Mi, Gi, Ti, Pi]
+
+currency : [koruna, koruny, korun, dolar, dolary, dolarů, dolaru,
+            libra, libru, libry, liber, kč, czk, eur, euro, usd, kčs, gbp]
+percent : ['%', procent, procenta, procenty]
+degree : ['°', stupen, stupeň, stupnu, stupňů, stupně, stupne]
+
+months : [leden, ledna, lednu, lednem, únor, února, únoru, únorem, březen,
+          března, březnu, březnem, duben, dubna, dubnu, dubnem, květen, května,
+          květnu, květnem, červen, června, červnu, červnem, červenec, července,
+          červenci, červencem, srpen, srpna, srpnu, srpnem, září, zářím,
+          říjen, října, říjnu, říjnem, listopad, listopadu, listopadem,
+          prosinec, prosince, prisinci, prosincem, unor, unora, unoru, unorem,
+          brezen, brezna, breznu, breznem, kveten, kvetna, kvetnu, kvetnem,
+          cerven, cervna, cervnu, cervnem, cervenec, cervence, cervenci,
+          cervencem, zari, rijen, rijna, rijnu, rijnem]

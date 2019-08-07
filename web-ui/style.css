@@ -1,0 +1,111 @@
+body {
+    padding-top: 3em;
+}
+#main {
+    max-width: 780px;
+    margin: 0 auto;
+}
+.about p {
+    line-height: 1.5;
+}
+#main a {
+    color: #204a87;
+}
+#main a:hover {
+    text-decoration: none;
+}
+.results {
+    line-height: 1.6;
+}
+textarea {
+    width: 100%;
+    font-size: 120%;
+}
+.send-btn {
+    width: 150px;
+    height: 50px;
+    font-size: 110%;
+    display: block;
+    margin: 0 auto;
+}
+.backlink {
+    margin-top: 2em;
+}
+#footer {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    position: absolute;
+    bottom: 3em; left: 3em;
+}
+#footer li {
+    margin: 0;
+    padding: 0 0.7em 0 0.3em;
+    display: inline;
+    border-right: 1px solid #aaa;
+}
+#footer li:last-child {
+    border: none;
+}
+#footer li:first-child {
+    padding-left: 0;
+}
+#footer a {
+    text-decoration: none;
+    color: #666;
+    background-color: #fff;
+    font-size: 90%;
+}
+#footer a:hover {
+    text-decoration: underline;
+}
+
+.ne {
+    background-color: #F2E663;
+    padding: 0.1em;
+}
+.ne.CName {
+    background-color: #FC8888;
+}
+.ne.Aevent {
+    background-color: #A7FC88;
+}
+.ne.Anumber {
+    background-color: #88FCED;
+}
+.ne.CAbbr {
+    background-color: #FC88ED;
+}
+.ne.CLawNo {
+    background-color: #A8A3FF;
+}
+.box {
+    width: 80%;
+    margin: 1em auto;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+.box.warning {
+    background-color: #FFFFB3;
+    border: 2px solid #FFED26;
+}
+.tipsy {
+    position: absolute;
+    padding: 5px;
+    z-index: 100000;
+}
+.tipsy-inner {
+    background-color: #000;
+    color: #FFF;
+    max-width: 400px;
+    padding: 5px 8px 4px 8px;
+    border-radius: 3px;
+}
+
+.tipsy dl {
+    margin: 0;
+    padding: 0;
+}
+.tipsy dt {
+    font-weight: bold;
+}

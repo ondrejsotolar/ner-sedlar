@@ -1,0 +1,9 @@
+titles_before: [arch, arm, ArtD, Bc, BcA, brig, CsC, čet, des, DiS, doc, Dr,
+                gen, genmjr, genpor, ICDr, Ing, JUDr, kpt, Md, MDDr, MgA, Mgr,
+                mjr, Ml, Mr, MSDr, Mudr, MUDr, MVDr, npor, nprap, nrtm, p,
+                PaedDr, paní, PharmDr, PhDr, PhMr, pí, plk, por, pplk, prap,
+                prof, RCDr, RNDr, RSDr, RTDr, rtm, rtn, St, sv, svob, šprap,
+                št, ThDr, ThLic, ThMgr, voj]
+titles_after: [PhD, Ph, D, Th, CSc, DrSc, DiS]
+age_info: [ml, jr, st, sr]
+prepositions: [von, de, van, der, ven, al]

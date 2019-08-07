@@ -1,0 +1,13 @@
+dashes : ['-', '–', '—', '/']
+para_word : ['§', paragraf, paragrafu]
+sect_word : [odst, odstavce, odstavec]
+coll_word : [sbírky]
+coll_abbr : [sb]
+trail_sep : ['.', ',', ')']
+letter_word : [písmeno, písmena, pismeno, pismena]
+letter_abbr : [pism, písm]
+law_word : [zákona, zakona, vyhlášky, vyhlasky, nařízení, narizeni, zákon, zakon,
+            zákonem]
+law_abbr : [zák, zak, vyhl, nar, nař]
+number_word : [číslo, cislo]
+number_abbr : [c, č, 'c.', 'č.']

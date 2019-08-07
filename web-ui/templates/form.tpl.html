@@ -1,0 +1,39 @@
+<form method=post>
+    <p>
+    <textarea name=text cols=50 rows=8 placeholder="$default_text"></textarea>
+    </p>
+    <p>
+        <input type=submit value=Odeslat class=send-btn>
+    </p>
+
+    <div class='about'>
+        <h2>O programu</h2>
+
+        <p>
+        Toto je demoverze programu pro detekci pojmenovaných entit v českém textu.
+        Jako demo obsahuje omezení na maximální délku zpracovaného vstupu,
+        konkrétně 1000 znaků.
+        </p>
+
+        <p>Nástroj je k dispozici pod <a
+            href="https://nlp.fi.muni.cz/en/Licence">licencí NLP Centra pro
+            webové služby</a>.</p>
+
+        <h3>Použití</h3>
+
+        <p>
+        Webové demo komunikuje na jediné URL. Požadavek <code>GET</code> vrátí
+        tento formulář. Požadavek <code>POST</code> očekává jedno formulářové
+        pole jménem <code>text</code> a vrátí zpět rozpoznané entity.
+        </p>
+
+        <p>
+        Výchozím výstupním formátem je HTML. Pokud požadavek obsahuje HTTP
+        hlavičku <code>X-Requested-With</code> s hodnotou
+        <code>XMLHttpRequest</code>, bude odpověď ve formátu JSON. Výstup ve
+        formátu JSON lze vynutit nebo zakázat přidáním <code>?json=1</code>
+        (resp. <code>?json=0</code>) na konec URL.
+        </p>
+
+    </div>
+</form>

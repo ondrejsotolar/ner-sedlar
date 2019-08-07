@@ -1,0 +1,4 @@
+Options +ExecCGI
+AddHandler cgi-script .py
+Allow from all
+DirectoryIndex index.py
